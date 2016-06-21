@@ -1,0 +1,7 @@
+﻿@model RazorComponentRenderer.Models.Components.BiggerModel
+<div>
+    <p>THIS IS A BIGGER COMPONENT WITH TITLE @Model.Description</p>
+    <hr/>
+    @Html.Partial("Components/DivComponent", Model.MyDivModel)
+    <hr/>
+</div>
